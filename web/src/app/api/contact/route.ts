@@ -8,7 +8,7 @@ import { sendMail } from "@/lib/mailer";
  * credentials the deployment has. No secret is read from the repo.
  */
 
-const TO = process.env.CONTACT_TO ?? "info@diwa.tg";
+const TO = process.env.CONTACT_TO ?? "info@diwaindustries.tg";
 
 // Crude in-memory rate limit: enough to stop casual abuse on a single
 // instance. Put a real limiter in front if the form ever gets hammered.

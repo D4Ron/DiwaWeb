@@ -81,7 +81,7 @@ export default async function LocaleLayout({
     name: "Diwa Industries SA",
     url: SITE_URL,
     logo: `${SITE_URL}/images/brand/diwa-logo.png`,
-    email: "info@diwa.tg",
+    email: "info@diwaindustries.tg",
     telephone: "+228 90 04 07 42",
     address: {
       "@type": "PostalAddress",

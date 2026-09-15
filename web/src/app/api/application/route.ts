@@ -13,7 +13,7 @@ import { MAX_ATTACHMENT_BYTES, sendMail, type Attachment } from "@/lib/mailer";
  * same number.
  */
 
-const TO = process.env.CAREERS_TO ?? process.env.CONTACT_TO ?? "info@diwa.tg";
+const TO = process.env.CAREERS_TO ?? process.env.CONTACT_TO ?? "info@diwaindustries.tg";
 const ALLOWED = new Set(["application/pdf"]);
 
 const hits = new Map<string, number[]>();
