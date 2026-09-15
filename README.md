@@ -130,6 +130,27 @@ Burns drift, standing in for a video loop that has not been produced yet.
 `HeroRotator` in `src/components/Motion.tsx` is the swap point. The first
 frame renders at full opacity server-side, so the hero is never blank.
 
+## Email delivery
+
+Both the contact form and the job application form post to route handlers
+under `web/src/app/api/`. Without credentials they accept the submission,
+log it to the server console and return success — deliberate, so the forms
+work on preview deployments. To actually send mail:
+
+1. Create a key at [resend.com](https://resend.com) → API Keys (starts `re_`).
+2. **Verify `diwaindustries.tg` in Resend** under Domains, and add the DNS
+   records it gives you. This step is not optional — see below.
+3. Set the variables from `web/.env.example` in Vercel under
+   Settings → Environment Variables, or with `vercel env add`.
+4. Redeploy. Environment variables are read at build time.
+
+**The domain verification is the part people skip.** Resend's built-in
+`onboarding@resend.dev` sender only delivers to the email address that owns
+the Resend account. Until `diwaindustries.tg` is verified and
+`CONTACT_FROM` points at it, form submissions will not reach `info@diwa.tg`
+even with a valid key — the API returns success and the mail goes nowhere
+useful.
+
 ## Known gaps
 
 - **The hero video does not exist yet.** The stand-in is described above.
