@@ -1,0 +1,39 @@
+# Diwa Industries — container setup
+#
+#   docker compose up web              production build, http://localhost:3000
+#   docker compose --profile dev up    hot-reloading dev server on :3001
+#
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: diwa-industries:latest
+    container_name: diwa-web
+    restart: unless-stopped
+    ports:
+      # Override with WEB_PORT=8080 if 3000 is taken. On Windows, Hyper-V
+      # reserves blocks of ports and 3000 is often inside one.
+      - "${WEB_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+
+  dev:
+    profiles: ["dev"]
+    build:
+      context: ./web
+      dockerfile: Dockerfile.dev
+    container_name: diwa-web-dev
+    ports:
+      - "3001:3000"
+    environment:
+      NEXT_TELEMETRY_DISABLED: "1"
+      # Bind-mounted source on Windows/WSL does not emit inotify events
+      # reliably; polling keeps hot reload working.
+      WATCHPACK_POLLING: "true"
+    volumes:
+      - ./web:/app
+      # Keep container-built node_modules and .next out of the bind mount.
+      - /app/node_modules
+      - /app/.next

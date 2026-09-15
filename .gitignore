@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# builds
+.next/
+out/
+build/
+dist/
+
+# runtime
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env*.local
+
+# editors
+.vscode/
+.idea/
+
+# next
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
+# Source documents supplied by the client (brochure, company presentation).
+# Kept out of the repo: they are large, they are not build inputs, and the
+# material extracted from them lives in web/public and the message files.
+info_doc/

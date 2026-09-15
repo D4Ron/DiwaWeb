@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Diwa Industries — Botijas de gás e CO2",
+    "description": "Líder no fabrico e na requalificação de botijas de gás e na produção de CO2 alimentar e industrial na África Ocidental."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre nós",
+    "products": "Produtos & Serviços",
+    "sustainability": "Sustentabilidade",
+    "careers": "Carreiras",
+    "careersOverview": "Carreiras",
+    "offers": "Ofertas de emprego",
+    "spontaneous": "Candidatura espontânea",
+    "bonsPlans": "Promoções",
+    "news": "Notícias",
+    "contact": "Contacto",
+    "skip": "Ir para o conteúdo",
+    "language": "Escolha do idioma",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Blitta · Região Central · Togo",
+    "title": "Botijas feitas para durar",
+    "subtitle": "Líder no fabrico e na requalificação de botijas de gás e na produção de CO2 alimentar e industrial e de outros gases inertes na África Ocidental.",
+    "cta": "Contacte-nos",
+    "ctaSecondary": "Os nossos produtos",
+    "tagline": "Armazenamos a sua energia"
+  },
+  "stats": {
+    "cylindersPerYear": "Botijas por ano",
+    "requalifiedPerDay": "Requalificadas por dia",
+    "certifications": "Certificações ISO",
+    "audits": "Auditorias das majors"
+  },
+  "credentials": {
+    "iso9001": "ISO 9001:2015",
+    "iso45001": "ISO 45001:2018",
+    "iso14001": "ISO 14001:2015",
+    "total": "Auditoria TotalEnergies 2023",
+    "oryx": "Auditoria Oryx Genebra 2023",
+    "wlpga": "Membro da WLPGA desde 2023",
+    "region": "Certificado CEDEAO / UEMOA"
+  },
+  "intro": {
+    "title": "Fabrico e requalificação de botijas de gás e produção de CO2 na África Ocidental",
+    "body": "Somos uma sociedade anónima industrial togolesa de primeiro plano, especializada no fabrico e na requalificação de botijas de gás butano ou GPL, bem como na produção de dióxido de carbono (CO2) alimentar e industrial e de outros gases inertes. Fazemos questão de fornecer soluções inovadoras e de elevada qualidade que garantam a segurança, o bem-estar e a satisfação dos nossos clientes, através de um compromisso constante com a excelência.",
+    "cta": "Os nossos produtos e serviços"
+  },
+  "products": {
+    "eyebrow": "Os nossos serviços e produtos",
+    "title": "Os nossos produtos e serviços",
+    "more": "Descobrir",
+    "pageTitle": "Os nossos produtos e serviços",
+    "pageEyebrow": "Produtos & Serviços",
+    "pageLead": "Botijas de gás butano e CO2 de elevada qualidade, fabricadas e requalificadas segundo as normas internacionais.",
+    "quality": {
+      "title": "Qualidade e segurança como prioridades absolutas",
+      "body1": "Na Diwa Industries, comprometemo-nos a oferecer aos nossos clientes soluções fiáveis e de qualidade no domínio do gás butano, do CO2 e de outros gases inertes, garantindo sempre a sua segurança. Fabricamos e requalificamos botijas de gás de diferentes dimensões, adaptadas a diversas aplicações industriais e domésticas.",
+      "body2": "Aplicamos uma política de tolerância zero em matéria de não conformidades. Cada botija fabricada ou requalificada passa por um rigoroso processo de controlo de qualidade, com inspeções internas e externas realizadas por profissionais acreditados, como a SGS e a Direção-Geral do Ministério dos Hidrocarbonetos e das Minas.",
+      "body3": "Dispomos de uma acreditação CEDEAO e UEMOA que isenta os nossos clientes da sub-região de direitos aduaneiros sobre os nossos produtos, mediante apresentação do nosso certificado de origem."
+    },
+    "manufacturing": {
+      "title": "Fabrico de botijas de gás butano / GPL",
+      "body": "Disponíveis em vários tamanhos: 3 kg, 6 kg, 12,5 kg, 25 kg e 50 kg. Fabricadas segundo as normas internacionais para garantir a segurança e a proteção dos utilizadores.",
+      "long": "A Diwa Industries é um agente de referência no fabrico de botijas de gás butano ou GPL. Propomos uma ampla gama de tamanhos, adaptados a diferentes utilizações domésticas, industriais e comerciais. Graças a equipamentos de ponta e a processos de produção rigorosos, garantimos produtos fiáveis e conformes às normas internacionais de segurança.",
+      "specLabel": "Capacidade de produção",
+      "specValue": "Mais de 2 000 000 de botijas por ano",
+      "sizesLabel": "Tamanhos disponíveis",
+      "sizesValue": "B6 · B12 · industriais · à medida"
+    },
+    "requalification": {
+      "title": "Requalificação de botijas de gás",
+      "body": "A Diwa Industries requalifica entre 1 200 e 3 600 botijas por dia, prolongando a sua vida útil e reduzindo o impacto ambiental, cumprindo normas de segurança estritas.",
+      "long": "A requalificação das botijas de gás é essencial para garantir a segurança e a durabilidade dos equipamentos em circulação. O nosso serviço permite prolongar a vida útil das botijas e reduzir o impacto ambiental, evitando o abate prematuro dos equipamentos.",
+      "specLabel": "Capacidade diária",
+      "specValue": "1 200 a 3 600 botijas por dia",
+      "sizesLabel": "Dê uma nova vida",
+      "sizesValue": "Aos seus equipamentos em circulação"
+    },
+    "co2": {
+      "title": "Produção de dióxido de carbono (CO2)",
+      "body": "CO2 alimentar: adequado para utilização na indústria agroalimentar e de bebidas. CO2 industrial: utilizado em aplicações industriais.",
+      "long": "A Diwa Industries é também um fornecedor de referência de dióxido de carbono de elevada qualidade para aplicações alimentares e industriais. Os nossos produtos são utilizados na gaseificação de bebidas, na produção alimentar e em processos industriais que exigem gases inertes.",
+      "specLabel": "Qualidades produzidas",
+      "specValue": "Alimentar e industrial",
+      "sizesLabel": "Aplicações",
+      "sizesValue": "Bebidas · agroalimentar · processos"
+    },
+    "benefits": {
+      "title": "Vantagens e garantias",
+      "standards": "Normas internacionais: os nossos produtos são fabricados segundo padrões rigorosos (ISO 9001, ISO 45001, ISO 14001), garantindo a sua qualidade e segurança.",
+      "reliability": "Fiabilidade: graças aos nossos equipamentos modernos e aos nossos procedimentos de controlo de qualidade, oferecemos produtos fiáveis que respondem às necessidades variadas dos nossos clientes.",
+      "sustainability": "Compromisso com a sustentabilidade: oferecemos soluções respeitadoras do ambiente, como a requalificação das botijas e a utilização de CO2 produzido de forma responsável.",
+      "service": "Serviço ao cliente dedicado: as nossas equipas estão disponíveis para responder às suas questões e acompanhá-lo de forma personalizada."
+    },
+    "accessories": {
+      "title": "Fabrico de acessórios de gás",
+      "body": "Jaulas e expositores de botijas, fogões e equipamentos associados, fabricados na nossa unidade de Blitta.",
+      "long": "Para além das botijas, a Diwa Industries fabrica os acessórios que acompanham a sua distribuição e utilização: jaulas e expositores para pontos de venda, fogões e outros equipamentos. Uma oferta pensada para distribuidores e marketers que procuram um fornecedor único em toda a cadeia.",
+      "specLabel": "Gama",
+      "specValue": "Jaulas · expositores · fogões",
+      "sizesLabel": "À medida",
+      "sizesValue": "Nas cores e marcas dos marketers"
+    },
+    "standards": "Conformidade com as normas internacionais (ISO, PED, EN, ARSO)"
+  },
+  "sustainability": {
+    "eyebrow": "O nosso compromisso com a sustentabilidade",
+    "title": "Qualidade, Segurança e Ambiente",
+    "body": "A sustentabilidade está no centro da nossa estratégia. O nosso Sistema de Gestão Integrado QSA (Qualidade, Segurança, Ambiente) permite-nos assegurar a conformidade com as normas internacionais, reduzindo ao mesmo tempo o nosso impacto ecológico. Investimos em tecnologias verdes e em soluções inovadoras para otimizar os processos de produção, reduzir os resíduos e melhorar a eficiência energética.",
+    "cta": "Saber mais",
+    "pageEyebrow": "Sustentabilidade",
+    "pageTitle": "Construir um futuro responsável e ecológico",
+    "pageLead": "A sustentabilidade está no centro do nosso modelo de negócio. Acreditamos firmemente que a inovação, a segurança e a responsabilidade ambiental caminham juntas.",
+    "intro": "Na Diwa Industries, estamos determinados a operar de forma responsável e a minimizar o nosso impacto no ambiente, respondendo ao mesmo tempo às necessidades dos nossos clientes. É por isso que integrámos práticas sustentáveis em todos os nossos processos de produção, de gestão e de serviço.",
+    "resources": {
+      "title": "Gestão responsável dos recursos",
+      "body": "Procuramos otimizar a utilização dos recursos naturais em toda a nossa cadeia de produção. Do fabrico das botijas à produção de CO2, implementámos soluções energéticas eficientes e práticas responsáveis de gestão de resíduos. Isto inclui a utilização de energias renováveis na nossa fábrica, a otimização dos processos para reduzir o consumo de água e de energia, bem como a gestão rigorosa das matérias-primas utilizadas nos nossos produtos."
+    },
+    "requalification": {
+      "title": "A requalificação como economia circular",
+      "body": "Requalificar uma botija em vez de a abater evita o fabrico de um equipamento novo e prolonga a vida do parque em circulação. Com 1 200 a 3 600 botijas tratadas por dia, é o nosso contributo mais concreto para a redução dos resíduos industriais na sub-região."
+    },
+    "qse": {
+      "title": "Sistema de Gestão Integrado QSA",
+      "body": "O nosso Sistema de Gestão Integrado QSA (Qualidade, Segurança, Ambiente) é um pilar fundamental da nossa estratégia de sustentabilidade. Permite-nos garantir a conformidade com as normas internacionais, integrando princípios de sustentabilidade em todos os aspetos das nossas operações. Comprometemo-nos a melhorar continuamente as nossas práticas e a reduzir o impacto ambiental da nossa atividade."
+    }
+  },
+  "certifications": {
+    "eyebrow": "As nossas certificações",
+    "title": "Certificações e auditorias",
+    "body": "A Diwa Industries evolui num processo de melhoria contínua, atestado por certificações e auditorias de prestígio.",
+    "certHeading": "Certificações",
+    "auditHeading": "Auditoria",
+    "membershipHeading": "Adesão",
+    "membership": "Acreditada e membro da Associação Mundial do GPL (WLPGA) desde 2023"
+  },
+  "vision": {
+    "title": "A nossa visão",
+    "body": "Na Diwa Industries, aspiramos a ser a empresa líder do nosso setor, reconhecida pela qualidade excecional dos seus produtos e serviços, pela competência da sua equipa, pela solidez das suas parcerias e pelo seu desempenho. Comprometemo-nos a criar valor duradouro para os nossos clientes, colaboradores e parceiros, respeitando normas exigentes em matéria de segurança e de proteção do ambiente.",
+    "whyTitle": "Porquê escolher a Diwa Industries?",
+    "reliability": "Fiabilidade e qualidade: os nossos produtos cumprem as mais exigentes normas de segurança e de qualidade.",
+    "innovation": "Inovação contínua: investimos regularmente na melhoria dos nossos processos de produção.",
+    "service": "Serviço ao cliente de classe mundial: asseguramos uma relação transparente e reativa com os nossos clientes.",
+    "environment": "Compromisso ambiental: adotamos práticas ecológicas para proteger o nosso planeta."
+  },
+  "partners": {
+    "title": "Os nossos parceiros",
+    "body": "A Diwa Industries trabalha com parceiros de referência no domínio da energia e dos hidrocarbonetos."
+  },
+  "careers": {
+    "eyebrow": "Carreiras",
+    "pageTitle": "Faça parte da nossa equipa de talentos",
+    "pageLead": "Acreditamos que o nosso sucesso assenta na competência, na paixão e no empenho dos nossos colaboradores.",
+    "intro": "Enquanto empresa em plena expansão na indústria do gás butano e do CO2, procuramos talentos ambiciosos e motivados para se juntarem à nossa equipa. Se é apaixonado pela inovação, pela qualidade e pela sustentabilidade, a Diwa Industries é o lugar ideal para desenvolver a sua carreira.",
+    "whyTitle": "Porquê trabalhar na Diwa Industries?",
+    "whyBody": "Trabalhar na Diwa Industries é juntar-se a uma empresa que valoriza a excelência, a integridade e a inovação. Oferecemos aos nossos colaboradores um ambiente de trabalho estimulante, onde a colaboração e o desenvolvimento profissional estão no centro da nossa cultura.",
+    "reason1Title": "Um ambiente inclusivo e colaborativo",
+    "reason1Body": "Incentivamos o espírito de equipa e a cooperação entre todos os colaboradores, qualquer que seja a sua função ou experiência.",
+    "reason2Title": "Oportunidades de desenvolvimento",
+    "reason2Body": "Investimos na formação contínua dos nossos colaboradores, oferecendo-lhes oportunidades de evolução dentro da empresa.",
+    "reason3Title": "Segurança e bem-estar",
+    "reason3Body": "A segurança dos nossos colaboradores é uma prioridade absoluta, e implementamos programas de bem-estar para garantir um ambiente de trabalho saudável e seguro.",
+    "reason4Title": "Um impacto positivo",
+    "reason4Body": "Ao juntar-se à Diwa Industries, contribui para uma empresa com um impacto real no ambiente e na sociedade, fornecendo soluções sustentáveis e de qualidade.",
+    "testimonialsTitle": "Testemunhos dos nossos colaboradores",
+    "testimonialsLead": "Os nossos colaboradores são a nossa maior riqueza. Conheça a experiência de alguns deles na Diwa Industries.",
+    "t1": "Trabalhar na Diwa Industries permitiu-me enfrentar desafios entusiasmantes e contribuir para soluções sustentáveis no setor do gás. O ambiente de trabalho é excelente e cada dia traz uma nova oportunidade de aprender.",
+    "t1Name": "Kodjo",
+    "t1Role": "Responsável de Produção",
+    "t2": "A Diwa Industries deu-me uma oportunidade extraordinária de desenvolver as minhas competências de comunicação numa empresa inovadora e responsável. É um lugar onde as minhas ideias são ouvidas e onde me sinto verdadeiramente envolvida.",
+    "t2Name": "Aurélie",
+    "t2Role": "Responsável de Comunicação",
+    "t3": "O que me atraiu na Diwa Industries foi o seu compromisso com a inovação sustentável. Tenho a sorte de trabalhar em projetos com um impacto real, tanto na indústria como no ambiente.",
+    "t3Name": "Messan",
+    "t3Role": "Engenheiro de I&D",
+    "applyTitle": "Como candidatar-se?",
+    "applyBody": "Não há vagas abertas de momento. As candidaturas espontâneas são sempre bem-vindas — preencha o formulário indicando a área que lhe interessa e anexe o seu CV.",
+    "applyCta": "Enviar uma candidatura"
+  },
+  "news": {
+    "eyebrow": "Notícias",
+    "pageTitle": "Notícias",
+    "pageLead": "Descubra todas as nossas novidades: novos produtos, eventos e projetos em curso.",
+    "readMore": "Ler mais",
+    "back": "Todas as notícias",
+    "published": "Publicado a"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "pageTitle": "Estamos à sua disposição",
+    "pageLead": "Seja cliente, parceiro, fornecedor ou simplesmente à procura de informação, a nossa equipa está disponível.",
+    "intro": "Na Diwa Industries, comprometemo-nos a prestar um serviço ao cliente excecional. Não hesite em contactar-nos através dos meios indicados abaixo — teremos todo o gosto em ajudar.",
+    "formTitle": "Escreva-nos",
+    "name": "Nome completo",
+    "email": "Endereço de e-mail",
+    "subject": "Assunto",
+    "subjectQuote": "Pedido de orçamento",
+    "subjectGeneral": "Pedido geral",
+    "message": "A sua mensagem",
+    "send": "Enviar",
+    "sending": "A enviar…",
+    "success": "Obrigado — a sua mensagem foi enviada. Responderemos em breve.",
+    "error": "O envio falhou. Tente novamente ou escreva diretamente para info@diwa.tg.",
+    "addressLabel": "Morada da empresa",
+    "address": "Diwa Industries S.A.\nBlitta, Togo",
+    "poBoxLabel": "Caixa postal",
+    "poBox": "08 BP 8535",
+    "phoneLabel": "Telefone",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Horário de funcionamento",
+    "hours": "Segunda a sexta: 8h00 – 17h00\nSábado e domingo: encerrado"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "productsHeading": "Os nossos produtos e serviços",
+    "contactHeading": "Contacte-nos",
+    "phone": "+228 90 04 07 42",
+    "phone2": "+228 70 76 66 66",
+    "email": "info@diwa.tg",
+    "address": "Blitta, Região Central, Togo",
+    "email2": "simplice.kpeto@diwaindustries.tg",
+    "phone3": "+228 90 05 94 85"
+  },
+  "offers": {
+    "eyebrow": "Junte-se a nós",
+    "pageTitle": "Ofertas de emprego",
+    "pageLead": "Descubra as nossas oportunidades de carreira e junte-se a uma equipa empenhada.",
+    "count": "{count, plural, =1 {# oferta encontrada} other {# ofertas encontradas}}",
+    "active": "Ativa",
+    "expired": "Expirada",
+    "location": "Local:",
+    "experience": "Experiência:",
+    "posted": "Publicado a",
+    "apply": "Candidatar-me",
+    "noneKicker": "Sem vagas em curso",
+    "noneTitle": "Nenhuma vaga aberta de momento",
+    "noneBody": "Não temos vagas publicadas neste momento. As nossas necessidades evoluem depressa — envie-nos uma candidatura espontânea e entraremos em contacto assim que surgir uma função que corresponda ao seu perfil.",
+    "noneCta": "Enviar uma candidatura espontânea",
+    "spontaneousTitle": "Não encontra a função ideal?",
+    "spontaneousBody": "Envie a sua candidatura e entraremos em contacto assim que surgir uma oportunidade.",
+    "spontaneousCta": "Enviar a minha candidatura"
+  },
+  "spontaneous": {
+    "eyebrow": "Carreiras",
+    "pageTitle": "Candidatura espontânea",
+    "pageLead": "Junte-se às nossas equipas mesmo sem vaga publicada. Guardamos o seu processo em mãos.",
+    "intro": "Recebemos candidaturas espontâneas durante todo o ano. O seu processo é conservado e retomado assim que abrir uma função correspondente ao seu perfil, em Blitta ou nos nossos outros locais.",
+    "formTitle": "O seu processo",
+    "firstName": "Nome próprio",
+    "lastName": "Apelido",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "field": "Área de competência",
+    "fieldPlaceholder": "Escolher uma área...",
+    "fields": {
+      "hr": "Recursos Humanos",
+      "finance": "Finanças & Contabilidade",
+      "it": "Informática & Tecnologia",
+      "marketing": "Marketing & Comunicação",
+      "sales": "Comercial & Vendas",
+      "legal": "Jurídico",
+      "logistics": "Logística & Cadeia de Abastecimento",
+      "engineering": "Engenharia & Técnica",
+      "admin": "Administração",
+      "other": "Outra"
+    },
+    "level": "Nível de experiência",
+    "levelPlaceholder": "Escolher...",
+    "levels": {
+      "junior": "Júnior (0 – 2 anos)",
+      "confirmed": "Intermédio (2 – 5 anos)",
+      "senior": "Sénior (5 – 10 anos)",
+      "expert": "Especialista (10 anos+)"
+    },
+    "motivation": "Mensagem de motivação",
+    "cv": "CV",
+    "cvHint": "Apenas PDF, 5 MB no máximo.",
+    "letter": "Carta de motivação (opcional)",
+    "send": "Enviar a minha candidatura",
+    "sending": "A enviar…",
+    "success": "Obrigado — a sua candidatura foi recebida. Entraremos em contacto se o seu perfil corresponder a uma necessidade.",
+    "error": "O envio falhou. Tente novamente ou escreva para info@diwa.tg.",
+    "errorSize": "O ficheiro excede 5 MB. Comprima o seu PDF e tente novamente.",
+    "whatWeLookFor": "O que procuramos",
+    "look1": "Um interesse genuíno pela indústria do gás e pelas profissões da produção.",
+    "look2": "Sentido de segurança — é a nossa primeira exigência.",
+    "look3": "Rigor no trabalho e respeito pelos procedimentos.",
+    "look4": "Vontade de aprender e de evoluir dentro da empresa.",
+    "processTitle": "O que acontece a seguir",
+    "step1": "Acusamos a receção e analisamos o seu processo.",
+    "step2": "O seu perfil é conservado e cruzado com as nossas necessidades ao longo do ano.",
+    "step3": "Entramos em contacto assim que surgir uma função adequada."
+  },
+  "about": {
+    "eyebrow": "Quem somos",
+    "pageTitle": "Uma indústria togolesa ao serviço da África Ocidental",
+    "pageLead": "A partir de Blitta, fabricamos e requalificamos as botijas que transportam o gás doméstico de toda uma sub-região.",
+    "missionKicker": "A nossa missão",
+    "missionTitle": "Fabricar o equipamento em que assenta a segurança",
+    "missionBody1": "A Diwa Industries é uma sociedade anónima industrial togolesa especializada no fabrico e na requalificação de botijas de gás butano ou GPL, bem como na produção de dióxido de carbono alimentar e industrial e de outros gases inertes.",
+    "missionBody2": "Uma botija de gás é um órgão de segurança antes de ser um recipiente. É por isso que aplicamos uma política de tolerância zero em matéria de não conformidades: cada botija fabricada ou requalificada passa por um controlo de qualidade rigoroso, com inspeções internas e externas realizadas por profissionais acreditados como a SGS e a Direção-Geral do Ministério dos Hidrocarbonetos e das Minas.",
+    "missionBody3": "A nossa fábrica está implantada em Blitta, na região Central do Togo. Os nossos produtos destinam-se ao mercado local e sub-regional, e a nossa acreditação CEDEAO e UEMOA isenta os clientes da sub-região de direitos aduaneiros mediante apresentação do nosso certificado de origem.",
+    "figures": {
+      "cylinders": "Botijas por ano",
+      "requalified": "Requalificadas por dia",
+      "jobs": "Empregos permanentes",
+      "iso": "Certificações ISO"
+    },
+    "figuresNote": "O projeto industrial de Blitta representa um investimento de 7,5 mil milhões de FCFA, no âmbito do Plano Nacional de Desenvolvimento do Togo. As capacidades atuais provêm da nossa brochura comercial.",
+    "historyKicker": "O nosso percurso",
+    "historyTitle": "As etapas que nos trouxeram até aqui",
+    "valuesKicker": "Os nossos valores",
+    "valuesTitle": "O que orienta o nosso trabalho",
+    "values": {
+      "safety": {
+        "title": "A segurança em primeiro lugar",
+        "body": "Os nossos produtos contêm gás sob pressão e entram nas casas das pessoas. A segurança não é uma imposição regulamentar: é a própria razão de ser do nosso ofício."
+      },
+      "quality": {
+        "title": "Tolerância zero",
+        "body": "Nenhuma não conformidade é aceite. Os controlos internos são reforçados por inspeções externas de organismos acreditados."
+      },
+      "innovation": {
+        "title": "Melhoria contínua",
+        "body": "Investimos regularmente na melhoria dos nossos processos de produção e dos nossos equipamentos."
+      },
+      "environment": {
+        "title": "Responsabilidade ambiental",
+        "body": "Requalificar uma botija em vez de a abater evita produzir um equipamento novo. É o nosso contributo mais concreto para a redução dos resíduos industriais."
+      }
+    },
+    "plantTitle": "A fábrica de Blitta",
+    "plantBody": "Implantada na região Central, a fábrica reúne uma linha de fabrico de botijas novas e uma oficina de requalificação. Produz até 500 000 botijas por ano e requalifica entre 1 200 e 3 600 por dia.",
+    "plantAlt": "Visita ministerial ao pavilhão de produção da fábrica da Diwa Industries em Blitta, fevereiro de 2021",
+    "plantCaption": "O pavilhão de produção de Blitta durante a visita do Ministro do Comércio, fevereiro de 2021. Foto: Ministério do Comércio do Togo.",
+    "groupKicker": "O nosso grupo",
+    "groupTitle": "Membro do Grupo OSEOR S.A.",
+    "groupBody": "A Diwa Industries é uma filial do Grupo OSEOR S.A., grupo pan-africano sediado em Lomé que reúne quinze sociedades nos setores da energia, da indústria e dos serviços. Esta pertença coloca-nos numa cadeia de valor completa: fabricamos e requalificamos as botijas, e as nossas sociedades irmãs armazenam, enchem e distribuem o gás que as preenche.",
+    "groupNote": "As filiais aqui apresentadas são as que intervêm na cadeia do gás e na sua logística. O grupo conta, no total, com quinze sociedades repartidas por quatro países.",
+    "ctaTitle": "Vamos trabalhar juntos",
+    "ctaBody": "Distribuidor, comprador industrial ou parceiro institucional: a nossa equipa está disponível para analisar a sua necessidade.",
+    "ctaButton": "Contacte-nos",
+    "reachKicker": "O nosso alcance",
+    "reachTitle": "Sediados no Togo, ao serviço da África Ocidental",
+    "reachBody": "A nossa posição no centro da sub-região encurta os prazos e reduz os custos logísticos dos nossos clientes. Os nossos produtos cumprem as normas internacionais ISO, PED, EN e ARSO.",
+    "reachAlt": "Mapa da África Ocidental: o Togo no centro, com as rotas de distribuição da Diwa Industries"
+  },
+  "bonsPlans": {
+    "title": "Promoções",
+    "titleAnd": "&",
+    "titleTail": "ZenCard",
+    "sub": "Ofertas especiais, promoções e vantagens exclusivas selecionadas para si.",
+    "topUp": "Carregar o meu ZenCard",
+    "statOffers": "Ofertas ativas",
+    "statCard": "O seu cartão de vantagens",
+    "sectionTag": "Ofertas & Promoções",
+    "sectionTitle": "As nossas promoções do momento",
+    "badge": "ZenCard",
+    "enlarge": "Ampliar",
+    "enlargeAria": "Ampliar: {title}",
+    "close": "Fechar",
+    "posters": {
+      "p1": "ZenCard — Oferta Especial",
+      "p2": "ZenCard — Promoção Exclusiva",
+      "p3": "ZenCard — Promoção #5",
+      "p4": "ZenCard — Promoção #6",
+      "p5": "ZenCard — Promoção #7",
+      "p6": "ZenCard — Edição Especial",
+      "p7": "ZenCard — Oferta Limitada",
+      "p8": "ZenCard — O Produto"
+    },
+    "tipBadge": "Promoção",
+    "tipTitle": "Formação gratuita: domine o Excel para RH",
+    "tipBody": "A Diwa Industries oferece acesso gratuito à sua formação online «Excel para profissionais de RH» com qualquer subscrição...",
+    "tipLink": "Ver detalhes",
+    "modalTitle": "Carregamento ZenCard",
+    "modalSub": "Carregue o seu cartão de vantagens em poucos cliques.",
+    "modalNoticeTitle": "Serviço brevemente disponível",
+    "modalNoticeBody": "O carregamento online está em fase de implementação. Contacte-nos em caso de urgência.",
+    "modalContact": "Contacte-nos"
+  }
+}

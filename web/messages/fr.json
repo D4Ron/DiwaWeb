@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Diwa Industries — Bouteilles de gaz et CO2",
+    "description": "Leader de la fabrication et de la requalification des bouteilles de gaz et de la production de CO2 alimentaire et industriel en Afrique de l'Ouest."
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits & Services",
+    "sustainability": "Durabilité",
+    "careers": "Carrières",
+    "news": "Actualités",
+    "contact": "Contact",
+    "skip": "Aller au contenu",
+    "language": "Choix de la langue",
+    "menu": "Menu",
+    "careersOverview": "Carrières",
+    "offers": "Offres d'emploi",
+    "spontaneous": "Candidature spontanée",
+    "bonsPlans": "Bons Plans",
+    "about": "À propos"
+  },
+  "hero": {
+    "eyebrow": "Blitta · Région Centrale · Togo",
+    "title": "Des bouteilles conçues pour durer",
+    "subtitle": "Leader de la fabrication et de la requalification des bouteilles de gaz et de la production de CO2 alimentaire et industriel et d'autres gaz inertes en Afrique de l'Ouest.",
+    "cta": "Contactez-nous",
+    "ctaSecondary": "Nos produits",
+    "tagline": "Nous stockons votre énergie"
+  },
+  "stats": {
+    "cylindersPerYear": "Bouteilles par an",
+    "requalifiedPerDay": "Requalifiées par jour",
+    "certifications": "Certifications ISO",
+    "audits": "Audits majors"
+  },
+  "credentials": {
+    "iso9001": "ISO 9001:2015",
+    "iso45001": "ISO 45001:2018",
+    "iso14001": "ISO 14001:2015",
+    "total": "Audit TotalEnergies 2023",
+    "oryx": "Audit Oryx Genève 2023",
+    "wlpga": "Membre WLPGA depuis 2023",
+    "region": "Certifié CEDEAO / UEMOA"
+  },
+  "intro": {
+    "title": "Fabrication et requalification des bouteilles de gaz et production de CO2 en Afrique de l'Ouest",
+    "body": "Nous sommes une société anonyme (SA) industrielle togolaise de premier plan, spécialisée dans la fabrication et la requalification de bouteilles de gaz butane ou GPL ainsi que dans la production de dioxyde de carbone (CO2) alimentaire et industriel et autres gaz inertes. Nous mettons un point d'honneur à fournir des solutions innovantes et de haute qualité pour garantir la sécurité, le bien-être et la satisfaction de nos clients, à travers un engagement constant pour l'excellence.",
+    "cta": "Nos produits & services"
+  },
+  "products": {
+    "eyebrow": "Nos Services & Produits",
+    "title": "Nos Produits et Services",
+    "more": "Découvrir",
+    "pageTitle": "Nos Produits et Services",
+    "pageEyebrow": "Produits & Services",
+    "pageLead": "Bouteilles de gaz butane et CO2 de haute qualité, fabriquées et requalifiées selon les normes internationales.",
+    "quality": {
+      "title": "Qualité et sécurité, en priorités absolues",
+      "body1": "Chez Diwa Industries, nous nous engageons à offrir à nos clients des solutions fiables et de qualité dans le domaine des gaz butane et CO2 et autres gaz inertes, tout en garantissant leur sécurité. Nous fabriquons et requalifions des bouteilles de gaz de différentes tailles, adaptées à diverses applications industrielles et domestiques.",
+      "body2": "Nous appliquons une politique de tolérance zéro en matière de non-conformités. Chaque bouteille de gaz fabriquée ou requalifiée passe par un processus rigoureux de contrôle qualité, avec des inspections internes et externes menées par des professionnels agréés, tels que la SGS et la Direction Générale du Ministère des Hydrocarbures et des Mines.",
+      "body3": "Nous disposons d'un Agrément CEDEAO et UEMOA qui exonère nos clients de la sous-région des droits de douane sur nos produits avec notre certificat d'origine CEDEAO et UEMOA."
+    },
+    "manufacturing": {
+      "title": "Fabrication de Bouteilles de Gaz Butane / GPL",
+      "body": "Disponibles en plusieurs tailles : 3 Kg, 6 Kg, 12,5 Kg, 25 Kg et 50 Kg. Fabriquées selon les normes internationales pour garantir la sécurité et la protection des utilisateurs de gaz.",
+      "long": "Diwa Industries est un acteur majeur dans la fabrication de bouteilles de gaz butane ou GPL. Nous proposons une large gamme de tailles, adaptées à différents usages domestiques, industriels et commerciaux. Grâce à notre équipement de pointe et à des processus de production rigoureux, nous garantissons des produits fiables et conformes aux normes internationales de sécurité.",
+      "specLabel": "Capacité de production",
+      "specValue": "Plus de 2 000 000 de bouteilles par an",
+      "sizesLabel": "Tailles disponibles",
+      "sizesValue": "B6 · B12 · industrielles · sur mesure"
+    },
+    "requalification": {
+      "title": "Requalification de Bouteilles de Gaz",
+      "body": "Diwa Industries requalifie entre 1 200 et 3 600 bouteilles par jour, prolongeant leur durée de vie et réduisant l'impact environnemental, tout en respectant des normes de sécurité strictes.",
+      "long": "La requalification des bouteilles de gaz est une activité essentielle pour garantir la sécurité et la durabilité des équipements en circulation. Notre service permet de prolonger la durée de vie des bouteilles et de réduire l'impact environnemental en évitant la mise au rebut prématurée des équipements.",
+      "specLabel": "Capacité quotidienne",
+      "specValue": "1 200 à 3 600 bouteilles par jour",
+      "sizesLabel": "Donnez une nouvelle vie",
+      "sizesValue": "À vos équipements en circulation"
+    },
+    "co2": {
+      "title": "Production de Dioxyde de Carbone (CO2)",
+      "body": "CO2 alimentaire : convient pour une utilisation dans l'industrie agroalimentaire et des boissons. CO2 industriel : utilisé pour des applications industrielles.",
+      "long": "Diwa Industries est un fournisseur clé de dioxyde de carbone de haute qualité pour des applications alimentaires et industrielles. Nos produits sont utilisés pour la carbonatation des boissons, la production alimentaire, et dans des processus industriels nécessitant des gaz inertes.",
+      "specLabel": "Qualités produites",
+      "specValue": "Alimentaire et industrielle",
+      "sizesLabel": "Applications",
+      "sizesValue": "Boissons · agroalimentaire · procédés"
+    },
+    "benefits": {
+      "title": "Avantages et garanties",
+      "standards": "Normes internationales : nos produits sont fabriqués selon des standards rigoureux (ISO 9001, ISO 45001, ISO 14001), garantissant leur qualité et leur sécurité.",
+      "reliability": "Fiabilité : grâce à nos équipements modernes et à nos procédures de contrôle qualité, nous offrons des produits fiables qui répondent aux besoins variés de nos clients.",
+      "sustainability": "Engagement envers la durabilité : nous offrons des solutions respectueuses de l'environnement, comme la requalification des bouteilles et l'utilisation de CO2 produit de manière responsable.",
+      "service": "Service client dédié : nos équipes sont disponibles pour répondre à vos questions et vous accompagner de manière personnalisée."
+    },
+    "accessories": {
+      "title": "Fabrication d'accessoires de gaz",
+      "body": "Cages et présentoirs de bouteilles, foyers et équipements associés, fabriqués sur notre site de Blitta.",
+      "long": "Au-delà des bouteilles, Diwa Industries fabrique les accessoires qui accompagnent leur distribution et leur usage : cages et présentoirs pour les points de vente, foyers et autres équipements. Une offre pensée pour les distributeurs et marketeurs qui souhaitent un fournisseur unique sur toute la chaîne.",
+      "specLabel": "Gamme",
+      "specValue": "Cages · présentoirs · foyers",
+      "sizesLabel": "Sur mesure",
+      "sizesValue": "Aux couleurs et marques des marketeurs"
+    },
+    "standards": "Conformité aux normes internationales (ISO, PED, EN, ARSO)"
+  },
+  "sustainability": {
+    "eyebrow": "Notre engagement pour la durabilité",
+    "title": "Qualité, Sécurité et Environnement",
+    "body": "La durabilité est au cœur de notre stratégie. Notre Système de Management Intégré QSE (Qualité, Sécurité, Environnement) nous permet d'assurer la conformité aux normes internationales tout en réduisant notre impact écologique. Nous investissons dans des technologies vertes et des solutions innovantes pour optimiser nos processus de production, réduire les déchets et améliorer l'efficacité énergétique.",
+    "cta": "En savoir plus",
+    "pageEyebrow": "Durabilité",
+    "pageTitle": "Construire un avenir responsable et écologique",
+    "pageLead": "La durabilité est au cœur de notre modèle d'affaires. Nous croyons fermement que l'innovation, la sécurité et la responsabilité environnementale vont de pair.",
+    "intro": "Chez Diwa Industries, nous sommes déterminés à opérer de manière responsable et à minimiser notre impact sur l'environnement tout en répondant aux besoins de nos clients. C'est pourquoi nous avons intégré des pratiques durables dans tous nos processus de production, de gestion et de service.",
+    "resources": {
+      "title": "Gestion responsable des ressources",
+      "body": "Nous nous efforçons d'optimiser l'utilisation des ressources naturelles dans tous nos processus de production. De la fabrication des bouteilles de gaz à la production de CO2, nous avons mis en place des solutions énergétiques efficaces et des pratiques de gestion des déchets responsables. Cela inclut l'utilisation d'énergies renouvelables dans notre usine, l'optimisation de nos processus pour réduire la consommation d'eau et d'énergie, ainsi que la gestion rigoureuse des matières premières."
+    },
+    "requalification": {
+      "title": "La requalification comme économie circulaire",
+      "body": "Requalifier une bouteille plutôt que la mettre au rebut évite la production d'un équipement neuf et prolonge la vie du parc en circulation. Avec 1 200 à 3 600 bouteilles traitées par jour, c'est notre contribution la plus concrète à la réduction des déchets industriels dans la sous-région."
+    },
+    "qse": {
+      "title": "Système de Management Intégré QSE",
+      "body": "Notre Système de Management Intégré QSE (Qualité, Sécurité, Environnement) est un pilier fondamental de notre stratégie durable. Il nous permet de garantir la conformité aux normes internationales tout en intégrant des principes de durabilité dans tous les aspects de nos opérations. Nous nous engageons à constamment améliorer nos pratiques et à réduire l'impact environnemental de nos activités."
+    }
+  },
+  "certifications": {
+    "eyebrow": "Nos certifications",
+    "title": "Certifications et audits",
+    "body": "Diwa Industries se conforme dans son processus d'amélioration continue à travers ses certifications et audits prestigieux.",
+    "certHeading": "Certifications",
+    "auditHeading": "Audit",
+    "membershipHeading": "Adhésion",
+    "membership": "Agréée et membre de l'Association Mondiale du GPL (WLPGA) en 2023"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "body": "Chez Diwa Industries, nous aspirons à être la société leader dans notre secteur, admirée pour la qualité exceptionnelle de ses produits et services, l'expertise de son personnel, la qualité de ses partenaires et ses performances. Nous nous engageons à créer une valeur durable pour nos clients, nos employés et nos partenaires tout en respectant des normes rigoureuses en matière de sécurité et de protection de l'environnement.",
+    "whyTitle": "Pourquoi choisir Diwa Industries ?",
+    "reliability": "Fiabilité et qualité : nos produits respectent les plus strictes normes de sécurité et de qualité.",
+    "innovation": "Innovation continue : nous investissons régulièrement dans l'amélioration de nos processus de production.",
+    "service": "Service client de classe mondiale : nous assurons une relation transparente et réactive avec nos clients.",
+    "environment": "Engagement environnemental : nous adoptons des pratiques écologiques pour protéger notre planète."
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "body": "Diwa Industries travaille avec des partenaires de renom dans le domaine de l'énergie et des hydrocarbures."
+  },
+  "careers": {
+    "eyebrow": "Carrières",
+    "pageTitle": "Faites partie de notre équipe de talents innovants",
+    "pageLead": "Nous croyons que notre succès repose sur la compétence, la passion et l'engagement de nos collaborateurs.",
+    "intro": "En tant qu'entreprise en pleine expansion dans l'industrie du gaz butane et du CO2, nous recherchons des talents ambitieux et motivés pour rejoindre notre équipe. Si vous êtes passionné par l'innovation, la qualité et la durabilité, alors Diwa Industries est l'endroit idéal pour développer votre carrière.",
+    "whyTitle": "Pourquoi travailler chez Diwa Industries ?",
+    "whyBody": "Travailler chez Diwa Industries, c'est rejoindre une entreprise qui valorise l'excellence, l'intégrité et l'innovation. Nous offrons à nos employés un environnement de travail stimulant où la collaboration et le développement professionnel sont au cœur de notre culture d'entreprise.",
+    "reason1Title": "Un environnement inclusif et collaboratif",
+    "reason1Body": "Nous encourageons l'esprit d'équipe et la coopération entre tous nos collaborateurs, quel que soit leur rôle ou leur expérience.",
+    "reason2Title": "Des opportunités de développement",
+    "reason2Body": "Nous investissons dans la formation continue de nos employés, leur offrant des opportunités d'évoluer au sein de l'entreprise.",
+    "reason3Title": "Sécurité et bien-être",
+    "reason3Body": "La sécurité de nos employés est une priorité absolue, et nous mettons en place des programmes de bien-être pour garantir un environnement de travail sain et sécurisé.",
+    "reason4Title": "Un impact positif",
+    "reason4Body": "Vous contribuez à une entreprise qui a un réel impact sur l'environnement et la société, en fournissant des solutions durables et de qualité.",
+    "testimonialsTitle": "Témoignages de nos collaborateurs",
+    "testimonialsLead": "Nos employés sont notre plus grande richesse. Découvrez leur expérience chez Diwa Industries.",
+    "t1": "Travailler chez Diwa Industries m'a permis de relever des défis passionnants tout en contribuant à des solutions durables dans le secteur du gaz. L'ambiance de travail est excellente, et chaque jour est une nouvelle occasion d'apprendre.",
+    "t1Name": "Kodjo",
+    "t1Role": "Responsable de la Production",
+    "t2": "Diwa Industries m'a offert une opportunité incroyable de développer mes compétences en communication au sein d'une entreprise innovante et responsable. C'est un endroit où mes idées sont écoutées et où je me sens vraiment impliquée.",
+    "t2Name": "Aurélie",
+    "t2Role": "Chargée de Communication",
+    "t3": "Ce qui m'a attiré chez Diwa Industries, c'est leur engagement envers l'innovation durable. J'ai la chance de travailler sur des projets qui ont un véritable impact, tant sur l'industrie que sur l'environnement.",
+    "t3Name": "Messan",
+    "t3Role": "Ingénieur R&D",
+    "applyTitle": "Comment postuler ?",
+    "applyBody": "Aucune offre n'est ouverte pour le moment. Les candidatures spontanées restent les bienvenues — écrivez-nous en précisant le poste qui vous intéresse et joignez votre CV.",
+    "applyCta": "Envoyer une candidature"
+  },
+  "news": {
+    "eyebrow": "Actualités",
+    "pageTitle": "Actualités",
+    "pageLead": "Découvrez toutes nos actualités : nouveaux produits, événements, projets en cours.",
+    "readMore": "Lire plus",
+    "back": "Toutes les actualités",
+    "published": "Publié le"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "pageTitle": "Nous sommes à votre écoute",
+    "pageLead": "Que vous soyez un client, un partenaire, un fournisseur ou simplement à la recherche d'informations, notre équipe est disponible.",
+    "intro": "Chez Diwa Industries, nous nous engageons à offrir un service client exceptionnel. N'hésitez pas à nous contacter via les moyens ci-dessous, et nous nous ferons un plaisir de vous assister.",
+    "formTitle": "Écrivez-nous",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "subject": "Objet",
+    "subjectQuote": "Demande de devis",
+    "subjectGeneral": "Demande générale",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours…",
+    "success": "Merci — votre message a bien été envoyé. Nous vous répondrons rapidement.",
+    "error": "L'envoi a échoué. Réessayez, ou écrivez directement à info@diwa.tg.",
+    "addressLabel": "Adresse de l'entreprise",
+    "address": "Diwa Industries S.A.\nBlitta, Togo",
+    "poBoxLabel": "Boîte postale",
+    "poBox": "08 BP 8535",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "hoursLabel": "Horaires d'ouverture",
+    "hours": "Lundi à vendredi : 8h00 – 17h00\nSamedi et dimanche : fermé"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "productsHeading": "Nos produits et services",
+    "contactHeading": "Contactez-nous",
+    "phone": "+228 90 04 07 42",
+    "phone2": "+228 70 76 66 66",
+    "email": "info@diwa.tg",
+    "address": "Blitta, Région Centrale, Togo",
+    "email2": "simplice.kpeto@diwaindustries.tg",
+    "phone3": "+228 90 05 94 85"
+  },
+  "offers": {
+    "eyebrow": "Rejoignez-nous",
+    "pageTitle": "Offres d'emploi",
+    "pageLead": "Découvrez nos opportunités de carrière et rejoignez une équipe engagée.",
+    "count": "{count, plural, =1 {# offre trouvée} other {# offres trouvées}}",
+    "active": "Active",
+    "expired": "Expirée",
+    "location": "Lieu :",
+    "experience": "Expérience :",
+    "posted": "Publié le",
+    "apply": "Postuler",
+    "noneKicker": "Aucune offre en cours",
+    "noneTitle": "Pas de poste ouvert pour le moment",
+    "noneBody": "Nous n'avons pas d'offre publiée actuellement. Nos besoins évoluent vite — envoyez-nous une candidature spontanée et nous vous contacterons dès qu'un poste correspond à votre profil.",
+    "noneCta": "Envoyer une candidature spontanée",
+    "spontaneousTitle": "Vous ne trouvez pas le poste idéal ?",
+    "spontaneousBody": "Soumettez votre candidature et nous vous contacterons dès qu'une opportunité se présente.",
+    "spontaneousCta": "Soumettre ma candidature"
+  },
+  "spontaneous": {
+    "eyebrow": "Carrières",
+    "pageTitle": "Candidature spontanée",
+    "pageLead": "Rejoignez nos équipes même sans offre publiée. Nous gardons votre dossier en vue.",
+    "intro": "Nous recevons les candidatures spontanées toute l'année. Votre dossier est conservé et ressorti dès qu'un poste correspondant à votre profil s'ouvre à Blitta ou sur nos sites.",
+    "formTitle": "Votre dossier",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "field": "Domaine de compétence",
+    "fieldPlaceholder": "Choisir un domaine...",
+    "fields": {
+      "hr": "Ressources Humaines",
+      "finance": "Finance & Comptabilité",
+      "it": "Informatique & Technologie",
+      "marketing": "Marketing & Communication",
+      "sales": "Commerce & Vente",
+      "legal": "Juridique",
+      "logistics": "Logistique & Supply Chain",
+      "engineering": "Ingénierie & Technique",
+      "admin": "Administration",
+      "other": "Autre"
+    },
+    "level": "Niveau d'expérience",
+    "levelPlaceholder": "Choisir...",
+    "levels": {
+      "junior": "Junior (0 – 2 ans)",
+      "confirmed": "Confirmé (2 – 5 ans)",
+      "senior": "Senior (5 – 10 ans)",
+      "expert": "Expert (10 ans+)"
+    },
+    "motivation": "Message de motivation",
+    "cv": "CV",
+    "cvHint": "PDF uniquement, 5 Mo maximum.",
+    "letter": "Lettre de motivation (optionnel)",
+    "send": "Envoyer ma candidature",
+    "sending": "Envoi en cours…",
+    "success": "Merci — votre candidature a bien été reçue. Nous revenons vers vous si votre profil correspond à un besoin.",
+    "error": "L'envoi a échoué. Réessayez, ou écrivez à info@diwa.tg.",
+    "errorSize": "Le fichier dépasse 5 Mo. Compressez votre PDF et réessayez.",
+    "whatWeLookFor": "Ce que nous recherchons",
+    "look1": "Un intérêt réel pour l'industrie du gaz et les métiers de la production.",
+    "look2": "Le sens de la sécurité — c'est notre première exigence.",
+    "look3": "De la rigueur dans le travail et le respect des procédures.",
+    "look4": "L'envie d'apprendre et d'évoluer au sein de l'entreprise.",
+    "processTitle": "Ce qui se passe ensuite",
+    "step1": "Nous accusons réception et examinons votre dossier.",
+    "step2": "Votre profil est conservé et rapproché de nos besoins au fil de l'année.",
+    "step3": "Nous vous contactons dès qu'un poste correspond."
+  },
+  "about": {
+    "eyebrow": "Qui sommes-nous",
+    "pageTitle": "Une industrie togolaise au service de l'Afrique de l'Ouest",
+    "pageLead": "Depuis Blitta, nous fabriquons et requalifions les bouteilles qui transportent le gaz domestique de toute une sous-région.",
+    "missionKicker": "Notre mission",
+    "missionTitle": "Fabriquer l'équipement sur lequel repose la sécurité",
+    "missionBody1": "Diwa Industries est une société anonyme industrielle togolaise spécialisée dans la fabrication et la requalification de bouteilles de gaz butane ou GPL, ainsi que dans la production de dioxyde de carbone alimentaire et industriel et d'autres gaz inertes.",
+    "missionBody2": "Une bouteille de gaz est un organe de sécurité avant d'être un contenant. C'est pourquoi nous appliquons une politique de tolérance zéro en matière de non-conformités : chaque bouteille fabriquée ou requalifiée passe par un contrôle qualité rigoureux, avec des inspections internes et externes menées par des professionnels agréés comme la SGS et la Direction Générale du Ministère des Hydrocarbures et des Mines.",
+    "missionBody3": "Notre usine est implantée à Blitta, dans la région Centrale du Togo. Nos produits sont destinés au marché local et sous-régional, et notre agrément CEDEAO et UEMOA exonère nos clients de la sous-région des droits de douane sur présentation de notre certificat d'origine.",
+    "figures": {
+      "cylinders": "Bouteilles par an",
+      "requalified": "Requalifiées par jour",
+      "jobs": "Emplois permanents",
+      "iso": "Certifications ISO"
+    },
+    "figuresNote": "Le projet industriel de Blitta représente un investissement de 7,5 milliards de FCFA, dans le cadre du Plan National de Développement du Togo. Nos capacités actuelles sont issues de notre brochure commerciale.",
+    "historyKicker": "Notre parcours",
+    "historyTitle": "Les étapes qui nous ont menés ici",
+    "valuesKicker": "Nos valeurs",
+    "valuesTitle": "Ce qui guide notre travail",
+    "values": {
+      "safety": {
+        "title": "La sécurité d'abord",
+        "body": "Nos produits contiennent du gaz sous pression et entrent dans des foyers. La sécurité n'est pas une contrainte réglementaire, c'est la raison d'être de notre métier."
+      },
+      "quality": {
+        "title": "Tolérance zéro",
+        "body": "Aucune non-conformité n'est acceptée. Les contrôles internes sont doublés d'inspections externes par des organismes agréés."
+      },
+      "innovation": {
+        "title": "Amélioration continue",
+        "body": "Nous investissons régulièrement dans l'amélioration de nos processus de production et de nos équipements."
+      },
+      "environment": {
+        "title": "Responsabilité environnementale",
+        "body": "Requalifier une bouteille plutôt que la mettre au rebut évite de produire un équipement neuf. C'est notre contribution la plus concrète à la réduction des déchets industriels."
+      }
+    },
+    "plantTitle": "L'usine de Blitta",
+    "plantBody": "Implantée dans la région Centrale, l'usine réunit une ligne de fabrication de bouteilles neuves et un atelier de requalification. Elle produit jusqu'à 500 000 bouteilles par an et en requalifie entre 1 200 et 3 600 par jour.",
+    "plantAlt": "Visite ministérielle dans le hall de production de l'usine Diwa Industries à Blitta, février 2021",
+    "plantCaption": "Le hall de production de Blitta lors de la visite du ministre du Commerce, février 2021. Photo : Ministère du Commerce du Togo.",
+    "groupKicker": "Notre groupe",
+    "groupTitle": "Membre du Groupe OSEOR S.A.",
+    "groupBody": "Diwa Industries est une filiale du Groupe OSEOR S.A., groupe panafricain basé à Lomé qui fédère quinze sociétés dans l'énergie, l'industrie et les services. Cette appartenance nous place sur une chaîne de valeur complète : nous fabriquons et requalifions les bouteilles, nos sociétés sœurs stockent, emplissent et distribuent le gaz qui les remplit.",
+    "groupNote": "Les filiales présentées ici sont celles qui interviennent sur la chaîne du gaz et de sa logistique. Le groupe compte au total quinze sociétés réparties sur quatre pays.",
+    "ctaTitle": "Travaillons ensemble",
+    "ctaBody": "Distributeur, industriel ou partenaire institutionnel : notre équipe est disponible pour étudier votre besoin.",
+    "ctaButton": "Contactez-nous",
+    "reachKicker": "Notre rayonnement",
+    "reachTitle": "Implantés au Togo, au service de l'Afrique de l'Ouest",
+    "reachBody": "Notre position au centre de la sous-région raccourcit les délais et réduit les coûts logistiques pour nos clients. Nos produits sont conformes aux normes internationales ISO, PED, EN et ARSO.",
+    "reachAlt": "Carte de l'Afrique de l'Ouest : le Togo au centre, avec les axes de distribution de Diwa Industries"
+  },
+  "bonsPlans": {
+    "title": "Bons Plans",
+    "titleAnd": "&",
+    "titleTail": "ZenCard",
+    "sub": "Offres spéciales, promotions et avantages exclusifs sélectionnés pour vous.",
+    "topUp": "Recharger ma ZenCard",
+    "statOffers": "Offres actives",
+    "statCard": "Votre carte avantages",
+    "sectionTag": "Offres & Promotions",
+    "sectionTitle": "Nos bons plans du moment",
+    "badge": "ZenCard",
+    "enlarge": "Agrandir",
+    "enlargeAria": "Agrandir : {title}",
+    "close": "Fermer",
+    "posters": {
+      "p1": "ZenCard — Offre Spéciale",
+      "p2": "ZenCard — Promotion Exclusive",
+      "p3": "ZenCard — Bon Plan #5",
+      "p4": "ZenCard — Bon Plan #6",
+      "p5": "ZenCard — Bon Plan #7",
+      "p6": "ZenCard — Édition Spéciale",
+      "p7": "ZenCard — Offre Limitée",
+      "p8": "ZenCard — Le Produit"
+    },
+    "tipBadge": "Bon Plan",
+    "tipTitle": "Formation Gratuite : Maîtrisez Excel pour les RH",
+    "tipBody": "Diwa Industries vous offre un accès gratuit à sa formation en ligne « Excel pour les professionnels RH » pour tout abonnement...",
+    "tipLink": "Voir le détail",
+    "modalTitle": "Recharge ZenCard",
+    "modalSub": "Rechargez votre carte avantages en quelques clics.",
+    "modalNoticeTitle": "Service bientôt disponible",
+    "modalNoticeBody": "La recharge en ligne est en cours de déploiement. Contactez-nous pour toute urgence.",
+    "modalContact": "Nous contacter"
+  }
+}

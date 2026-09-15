@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Diwa Industries — Gas cylinders and CO2",
+    "description": "A leader in gas cylinder manufacturing and requalification, as well as food-grade and industrial CO2 production in West Africa."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products & Services",
+    "sustainability": "Sustainability",
+    "careers": "Careers",
+    "news": "News",
+    "contact": "Contact",
+    "skip": "Skip to content",
+    "language": "Language",
+    "menu": "Menu",
+    "careersOverview": "Careers",
+    "offers": "Job offers",
+    "spontaneous": "Spontaneous application",
+    "bonsPlans": "Bons Plans",
+    "about": "About"
+  },
+  "hero": {
+    "eyebrow": "Blitta · Central Region · Togo",
+    "title": "Cylinders built to outlast the standard",
+    "subtitle": "A leader in gas cylinder manufacturing and requalification, as well as food-grade and industrial CO₂ and other inert gases production in West Africa.",
+    "cta": "Contact us",
+    "ctaSecondary": "Our products",
+    "tagline": "We store your energy"
+  },
+  "stats": {
+    "cylindersPerYear": "Cylinders per year",
+    "requalifiedPerDay": "Requalified per day",
+    "certifications": "ISO certifications",
+    "audits": "Major audits"
+  },
+  "credentials": {
+    "iso9001": "ISO 9001:2015",
+    "iso45001": "ISO 45001:2018",
+    "iso14001": "ISO 14001:2015",
+    "total": "TotalEnergies audit 2023",
+    "oryx": "Oryx Geneva audit 2023",
+    "wlpga": "WLPGA member since 2023",
+    "region": "ECOWAS / UEMOA certified"
+  },
+  "intro": {
+    "title": "Manufacturing and Requalification of Gas Cylinders and CO₂ Production in West Africa",
+    "body": "We are a leading Togolese industrial corporation (SA) specializing in the manufacturing and requalification of butane/LPG gas cylinders, as well as the production of food-grade and industrial carbon dioxide (CO₂) and other inert gases. We are committed to delivering innovative, high-quality solutions that ensure the safety, well-being, and satisfaction of our clients through a continuous pursuit of excellence.",
+    "cta": "Our products & services"
+  },
+  "products": {
+    "eyebrow": "Our Products & Services",
+    "title": "Our Products and Services",
+    "more": "Discover more",
+    "pageTitle": "Our Products and Services",
+    "pageEyebrow": "Products & Services",
+    "pageLead": "High-quality butane gas cylinders and CO₂, manufactured and requalified to international standards.",
+    "quality": {
+      "title": "Quality and safety are top priorities",
+      "body1": "At Diwa Industries, we are committed to delivering reliable, high-quality solutions in the fields of butane gas, CO₂, and other inert gases, while ensuring the highest levels of safety. We manufacture and requalify gas cylinders in a range of sizes suitable for both industrial and domestic applications.",
+      "body2": "We apply a zero-tolerance policy for non-compliance. Every gas cylinder — whether newly manufactured or requalified — undergoes a rigorous quality control process, including both internal and external inspections by certified professionals such as SGS and the General Directorate of the Ministry of Hydrocarbons and Mines.",
+      "body3": "We are ECOWAS and UEMOA certified, which exempts our regional customers from customs duties on our products when presented with our certificates of origin."
+    },
+    "manufacturing": {
+      "title": "Manufacturing of Butane / LPG Gas Cylinders",
+      "body": "Available in multiple sizes: 3 Kg, 6 Kg, 12.5 Kg, 25 Kg, and 50 Kg. Manufactured according to international standards to ensure user safety and protection.",
+      "long": "Diwa Industries is a major player in the manufacturing of butane or LPG gas cylinders. We offer a wide range of sizes to suit various domestic, industrial, and commercial needs. With cutting-edge equipment and rigorous production processes, we ensure the reliability and safety of our cylinders in compliance with international standards.",
+      "specLabel": "Production capacity",
+      "specValue": "Over 2,000,000 cylinders per year",
+      "sizesLabel": "Available sizes",
+      "sizesValue": "B6 · B12 · industrial · bespoke"
+    },
+    "requalification": {
+      "title": "Gas Cylinder Requalification",
+      "body": "Diwa Industries requalifies between 1,200 and 3,600 gas cylinders daily, extending their lifespan and reducing environmental impact, all while meeting strict safety standards.",
+      "long": "Gas cylinder requalification is essential to ensure the safety and longevity of equipment in use. Our service extends the life of cylinders and reduces environmental impact by avoiding premature disposal.",
+      "specLabel": "Daily capacity",
+      "specValue": "1,200 to 3,600 cylinders per day",
+      "sizesLabel": "Give your equipment",
+      "sizesValue": "A second working life"
+    },
+    "co2": {
+      "title": "Carbon Dioxide (CO₂) Production",
+      "body": "Food-grade CO₂: suitable for use in the food and beverage industry. Industrial CO₂: used in a variety of industrial applications.",
+      "long": "Diwa Industries is a key supplier of high-quality carbon dioxide for both food and industrial applications. Our products are used for beverage carbonation, food processing, and industrial processes requiring inert gases.",
+      "specLabel": "Grades produced",
+      "specValue": "Food-grade and industrial",
+      "sizesLabel": "Applications",
+      "sizesValue": "Beverages · food processing · industry"
+    },
+    "benefits": {
+      "title": "Benefits and guarantees",
+      "standards": "International standards: our products are manufactured in compliance with strict standards (ISO 9001, ISO 45001, ISO 14001), ensuring quality and safety.",
+      "reliability": "Reliability: with state-of-the-art equipment and robust quality control procedures, we deliver dependable products tailored to our customers' diverse needs.",
+      "sustainability": "Sustainability commitment: we are dedicated to environmentally responsible solutions, such as cylinder requalification and responsibly produced CO₂.",
+      "service": "Dedicated customer service: our teams are available to respond to your inquiries and provide personalized support."
+    },
+    "accessories": {
+      "title": "Gas accessory manufacturing",
+      "body": "Cylinder cages and display stands, burners and related equipment, made at our Blitta site.",
+      "long": "Beyond cylinders, Diwa Industries manufactures the accessories that go with their distribution and use: cages and display stands for points of sale, burners and other equipment. An offer built for distributors and marketers who want a single supplier across the whole chain.",
+      "specLabel": "Range",
+      "specValue": "Cages · display stands · burners",
+      "sizesLabel": "Bespoke",
+      "sizesValue": "In the colours and brands of marketers"
+    },
+    "standards": "Compliance with international standards (ISO, PED, EN, ARSO)"
+  },
+  "sustainability": {
+    "eyebrow": "Our Commitment to Sustainability",
+    "title": "Quality, Safety, and Environment",
+    "body": "Sustainability is at the core of our strategy. Our Integrated QSE (Quality, Safety, Environment) Management System ensures compliance with international standards while minimizing our ecological footprint. We invest in green technologies and innovative solutions to optimize production processes, reduce waste, and improve energy efficiency.",
+    "cta": "Learn more",
+    "pageEyebrow": "Sustainability",
+    "pageTitle": "Building a responsible and eco-friendly future",
+    "pageLead": "Sustainability lies at the core of our business model. We firmly believe that innovation, safety, and environmental responsibility go hand in hand.",
+    "intro": "At Diwa Industries, we are committed to operating responsibly and minimizing our environmental impact while meeting our clients' needs. That is why we have integrated sustainable practices across all aspects of our production, management, and service processes.",
+    "resources": {
+      "title": "Responsible resource management",
+      "body": "We strive to optimize the use of natural resources throughout our production chain. From gas cylinder manufacturing to CO₂ production, we have implemented energy-efficient solutions and responsible waste management practices. These include the use of renewable energy in our facilities, the optimization of water and energy consumption, and the careful management of raw materials used in our products."
+    },
+    "requalification": {
+      "title": "Requalification as circular economy",
+      "body": "Requalifying a cylinder rather than scrapping it avoids manufacturing a replacement and extends the life of the fleet already in circulation. At 1,200 to 3,600 cylinders processed per day, this is our most concrete contribution to reducing industrial waste across the region."
+    },
+    "qse": {
+      "title": "Integrated QSE Management System",
+      "body": "Our Integrated QSE (Quality, Safety, Environment) Management System is a cornerstone of our sustainability strategy. It allows us to ensure compliance with international standards while embedding sustainability principles into every aspect of our operations. We are committed to the continuous improvement of our practices and to reducing the environmental impact of our activities."
+    }
+  },
+  "certifications": {
+    "eyebrow": "Our Certifications",
+    "title": "Certifications and audits",
+    "body": "Diwa Industries continuously improves through prestigious certifications and audits.",
+    "certHeading": "Certifications",
+    "auditHeading": "Audit",
+    "membershipHeading": "Membership",
+    "membership": "Approved and a member of the World LPG Association (WLPGA) since 2023"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "body": "At Diwa Industries, we aim to be the leading company in our sector, renowned for the exceptional quality of our products and services, the expertise of our team, the strength of our partnerships, and our overall performance. We are committed to creating long-term value for our customers, employees, and partners, while upholding the highest standards in safety and environmental protection.",
+    "whyTitle": "Why choose Diwa Industries?",
+    "reliability": "Reliability and quality: our products meet the most stringent safety and quality standards.",
+    "innovation": "Ongoing innovation: we consistently invest in improving our production processes.",
+    "service": "World-class customer service: we offer a transparent and responsive customer relationship.",
+    "environment": "Environmental commitment: we embrace eco-friendly practices to help preserve our planet."
+  },
+  "partners": {
+    "title": "Our Partners",
+    "body": "Diwa Industries collaborates with renowned partners in the energy and hydrocarbons sector."
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "pageTitle": "Be part of our team of innovative talent",
+    "pageLead": "We believe that our success is built on the skills, passion, and commitment of our people.",
+    "intro": "As a growing company in the butane gas and CO₂ industry, we are always looking for ambitious and motivated individuals to join our team. If you are passionate about innovation, quality, and sustainability, Diwa Industries is the ideal place to build your career.",
+    "whyTitle": "Why work at Diwa Industries?",
+    "whyBody": "Working at Diwa Industries means being part of a company that values excellence, integrity, and innovation. We provide our employees with a dynamic work environment where collaboration and professional growth are central to our culture.",
+    "reason1Title": "Inclusive and collaborative workplace",
+    "reason1Body": "We foster teamwork and cooperation across all roles and levels of experience.",
+    "reason2Title": "Growth opportunities",
+    "reason2Body": "We invest in continuous training and development, enabling our employees to grow within the company.",
+    "reason3Title": "Safety and well-being",
+    "reason3Body": "The safety of our employees is a top priority. We provide wellness programmes to ensure a healthy, secure work environment.",
+    "reason4Title": "Meaningful impact",
+    "reason4Body": "You will contribute to a company that makes a real difference through sustainable, high-quality solutions in the gas industry.",
+    "testimonialsTitle": "Employee testimonials",
+    "testimonialsLead": "Our employees are our greatest asset. Here is what some of them say about working at Diwa Industries.",
+    "t1": "Working at Diwa Industries has allowed me to take on exciting challenges while contributing to sustainable solutions in the gas industry. The work environment is great, and every day brings a new opportunity to learn.",
+    "t1Name": "Kodjo",
+    "t1Role": "Production Manager",
+    "t2": "Diwa Industries gave me an incredible opportunity to grow my communication skills in an innovative and responsible company. My ideas are heard, and I truly feel involved.",
+    "t2Name": "Aurélie",
+    "t2Role": "Communications Officer",
+    "t3": "What attracted me to Diwa Industries was their commitment to sustainable innovation. I am fortunate to work on projects that genuinely impact both the industry and the environment.",
+    "t3Name": "Messan",
+    "t3Role": "R&D Engineer",
+    "applyTitle": "How to apply",
+    "applyBody": "There are no open positions at the moment. Speculative applications are always welcome — write to us naming the role that interests you and attach your CV.",
+    "applyCta": "Send an application"
+  },
+  "news": {
+    "eyebrow": "News",
+    "pageTitle": "News",
+    "pageLead": "Discover all our news: new products, events, and current projects.",
+    "readMore": "Read more",
+    "back": "All news",
+    "published": "Published on"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "pageTitle": "We're here to help",
+    "pageLead": "Whether you are a client, partner, supplier, or simply seeking more information, our team is here to answer your questions.",
+    "intro": "At Diwa Industries, we are committed to providing exceptional customer service. Feel free to reach out using the details below — we will be happy to assist you.",
+    "formTitle": "Write to us",
+    "name": "Full name",
+    "email": "Email address",
+    "subject": "Subject",
+    "subjectQuote": "Request a quote",
+    "subjectGeneral": "General request",
+    "message": "Your message",
+    "send": "Send",
+    "sending": "Sending…",
+    "success": "Thank you — your message has been sent. We will get back to you shortly.",
+    "error": "Sending failed. Please try again, or write directly to info@diwa.tg.",
+    "addressLabel": "Company address",
+    "address": "Diwa Industries S.A.\nBlitta, Togo",
+    "poBoxLabel": "P.O. Box",
+    "poBox": "08 BP 8535",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Opening hours",
+    "hours": "Monday to Friday: 8:00 am – 5:00 pm\nSaturday and Sunday: closed"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "productsHeading": "Our products and services",
+    "contactHeading": "Contact us",
+    "phone": "+228 90 04 07 42",
+    "phone2": "+228 70 76 66 66",
+    "email": "info@diwa.tg",
+    "address": "Blitta, Central Region, Togo",
+    "email2": "simplice.kpeto@diwaindustries.tg",
+    "phone3": "+228 90 05 94 85"
+  },
+  "offers": {
+    "eyebrow": "Join us",
+    "pageTitle": "Job offers",
+    "pageLead": "Discover our career opportunities and join a committed team.",
+    "count": "{count, plural, =1 {# offer found} other {# offers found}}",
+    "active": "Active",
+    "expired": "Expired",
+    "location": "Location:",
+    "experience": "Experience:",
+    "posted": "Posted",
+    "apply": "Apply",
+    "noneKicker": "No current openings",
+    "noneTitle": "No open positions at the moment",
+    "noneBody": "We have no published vacancies right now. Our needs move quickly — send us a spontaneous application and we will get in touch as soon as a role matches your profile.",
+    "noneCta": "Send a spontaneous application",
+    "spontaneousTitle": "Not finding the right role?",
+    "spontaneousBody": "Submit your application and we will contact you as soon as an opportunity comes up.",
+    "spontaneousCta": "Submit my application"
+  },
+  "spontaneous": {
+    "eyebrow": "Careers",
+    "pageTitle": "Spontaneous application",
+    "pageLead": "Join our teams even without a published vacancy. We keep your file on hand.",
+    "intro": "We accept spontaneous applications all year round. Your file is kept and revisited as soon as a role matching your profile opens at Blitta or on our other sites.",
+    "formTitle": "Your application",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "field": "Area of expertise",
+    "fieldPlaceholder": "Choose an area...",
+    "fields": {
+      "hr": "Human Resources",
+      "finance": "Finance & Accounting",
+      "it": "IT & Technology",
+      "marketing": "Marketing & Communications",
+      "sales": "Sales & Commercial",
+      "legal": "Legal",
+      "logistics": "Logistics & Supply Chain",
+      "engineering": "Engineering & Technical",
+      "admin": "Administration",
+      "other": "Other"
+    },
+    "level": "Experience level",
+    "levelPlaceholder": "Choose...",
+    "levels": {
+      "junior": "Junior (0 – 2 years)",
+      "confirmed": "Confirmed (2 – 5 years)",
+      "senior": "Senior (5 – 10 years)",
+      "expert": "Expert (10 years+)"
+    },
+    "motivation": "Motivation message",
+    "cv": "CV",
+    "cvHint": "PDF only, 5 MB maximum.",
+    "letter": "Cover letter (optional)",
+    "send": "Send my application",
+    "sending": "Sending…",
+    "success": "Thank you — your application has been received. We will come back to you if your profile matches a need.",
+    "error": "Sending failed. Please try again, or write to info@diwa.tg.",
+    "errorSize": "The file is over 5 MB. Compress your PDF and try again.",
+    "whatWeLookFor": "What we look for",
+    "look1": "A genuine interest in the gas industry and production work.",
+    "look2": "A safety mindset — it is our first requirement.",
+    "look3": "Rigour in the work and respect for procedure.",
+    "look4": "A willingness to learn and grow within the company.",
+    "processTitle": "What happens next",
+    "step1": "We acknowledge receipt and review your file.",
+    "step2": "Your profile is kept and matched against our needs through the year.",
+    "step3": "We contact you as soon as a role fits."
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "pageTitle": "A Togolese industry serving West Africa",
+    "pageLead": "From Blitta, we manufacture and requalify the cylinders that carry domestic gas across an entire sub-region.",
+    "missionKicker": "Our mission",
+    "missionTitle": "Building the equipment that safety rests on",
+    "missionBody1": "Diwa Industries is a Togolese industrial corporation specialising in the manufacturing and requalification of butane and LPG gas cylinders, as well as the production of food-grade and industrial carbon dioxide and other inert gases.",
+    "missionBody2": "A gas cylinder is a safety device before it is a container. That is why we apply a zero-tolerance policy for non-compliance: every cylinder manufactured or requalified goes through rigorous quality control, with internal and external inspections by certified professionals such as SGS and the General Directorate of the Ministry of Hydrocarbons and Mines.",
+    "missionBody3": "Our plant is located in Blitta, in Togo's Central Region. Our products serve the local and sub-regional market, and our ECOWAS and UEMOA approval exempts regional customers from customs duties on presentation of our certificate of origin.",
+    "figures": {
+      "cylinders": "Cylinders per year",
+      "requalified": "Requalified per day",
+      "jobs": "Permanent jobs",
+      "iso": "ISO certifications"
+    },
+    "figuresNote": "The Blitta industrial project represents an investment of 7.5 billion FCFA under Togo's National Development Plan. Current capacity figures are taken from our commercial brochure.",
+    "historyKicker": "Our journey",
+    "historyTitle": "The steps that brought us here",
+    "valuesKicker": "Our values",
+    "valuesTitle": "What guides our work",
+    "values": {
+      "safety": {
+        "title": "Safety first",
+        "body": "Our products hold gas under pressure and enter people's homes. Safety is not a regulatory burden — it is the reason the work exists."
+      },
+      "quality": {
+        "title": "Zero tolerance",
+        "body": "No non-compliance is accepted. Internal checks are backed by external inspections from accredited bodies."
+      },
+      "innovation": {
+        "title": "Continuous improvement",
+        "body": "We invest consistently in improving our production processes and our equipment."
+      },
+      "environment": {
+        "title": "Environmental responsibility",
+        "body": "Requalifying a cylinder rather than scrapping it avoids manufacturing a replacement. It is our most concrete contribution to reducing industrial waste."
+      }
+    },
+    "plantTitle": "The Blitta plant",
+    "plantBody": "Located in the Central Region, the plant brings together a new-cylinder manufacturing line and a requalification workshop. It produces up to 500,000 cylinders a year and requalifies between 1,200 and 3,600 a day.",
+    "plantAlt": "Ministerial visit inside the production hall of the Diwa Industries plant at Blitta, February 2021",
+    "plantCaption": "The Blitta production hall during the Minister of Trade's visit, February 2021. Photo: Togolese Ministry of Trade.",
+    "groupKicker": "Our group",
+    "groupTitle": "Part of Groupe OSEOR S.A.",
+    "groupBody": "Diwa Industries is a subsidiary of Groupe OSEOR S.A., a pan-African group based in Lomé bringing together fifteen companies across energy, industry and services. That membership places us on a complete value chain: we manufacture and requalify the cylinders, and our sister companies store, fill and distribute the gas that goes into them.",
+    "groupNote": "The subsidiaries shown here are those working on the gas chain and its logistics. The group comprises fifteen companies in total across four countries.",
+    "ctaTitle": "Let's work together",
+    "ctaBody": "Distributor, industrial buyer or institutional partner — our team is available to look at what you need.",
+    "ctaButton": "Contact us",
+    "reachKicker": "Our reach",
+    "reachTitle": "Based in Togo, serving West Africa",
+    "reachBody": "Our position at the centre of the sub-region shortens lead times and cuts logistics costs for our customers. Our products comply with the ISO, PED, EN and ARSO international standards.",
+    "reachAlt": "Map of West Africa: Togo at the centre, with Diwa Industries' distribution routes"
+  },
+  "bonsPlans": {
+    "title": "Special Offers",
+    "titleAnd": "&",
+    "titleTail": "ZenCard",
+    "sub": "Special offers, promotions and exclusive benefits selected for you.",
+    "topUp": "Top up my ZenCard",
+    "statOffers": "Active offers",
+    "statCard": "Your benefits card",
+    "sectionTag": "Offers & Promotions",
+    "sectionTitle": "Our current offers",
+    "badge": "ZenCard",
+    "enlarge": "Enlarge",
+    "enlargeAria": "Enlarge: {title}",
+    "close": "Close",
+    "posters": {
+      "p1": "ZenCard — Special Offer",
+      "p2": "ZenCard — Exclusive Promotion",
+      "p3": "ZenCard — Offer #5",
+      "p4": "ZenCard — Offer #6",
+      "p5": "ZenCard — Offer #7",
+      "p6": "ZenCard — Special Edition",
+      "p7": "ZenCard — Limited Offer",
+      "p8": "ZenCard — The Product"
+    },
+    "tipBadge": "Good Deal",
+    "tipTitle": "Free training: master Excel for HR",
+    "tipBody": "Diwa Industries is offering free access to its online course “Excel for HR professionals” with any subscription...",
+    "tipLink": "See details",
+    "modalTitle": "ZenCard top-up",
+    "modalSub": "Top up your benefits card in a few clicks.",
+    "modalNoticeTitle": "Service coming soon",
+    "modalNoticeBody": "Online top-up is currently being rolled out. Contact us if you need it urgently.",
+    "modalContact": "Contact us"
+  }
+}
