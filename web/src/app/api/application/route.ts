@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server";
+import { MAX_ATTACHMENT_BYTES, sendMail, type Attachment } from "@/lib/mailer";
 
 /**
  * Spontaneous application endpoint.
  *
- * Accepts multipart form data including a CV. Like the contact endpoint,
- * delivery is pluggable: with RESEND_API_KEY set the application is emailed
- * with the CV attached, without it the submission is logged and accepted so
- * the form works on preview deployments with no credentials.
+ * Accepts multipart form data including a CV. Delivery provider is chosen in
+ * src/lib/mailer.ts from whichever credentials the deployment has.
+ *
+ * Note on the size cap: Microsoft Graph's sendMail carries attachments inline
+ * and caps the whole request at 4 MB, and base64 inflates bytes by about a
+ * third. MAX_ATTACHMENT_BYTES is set accordingly and the form advertises the
+ * same number.
  */
 
 const TO = process.env.CAREERS_TO ?? process.env.CONTACT_TO ?? "info@diwa.tg";
-const FROM = process.env.CONTACT_FROM ?? "Diwa Industries <onboarding@resend.dev>";
-
-const MAX_FILE_BYTES = 5 * 1024 * 1024;
 const ALLOWED = new Set(["application/pdf"]);
 
 const hits = new Map<string, number[]>();
@@ -27,9 +28,13 @@ function rateLimited(ip: string) {
   return recent.length > MAX_PER_WINDOW;
 }
 
-async function toAttachment(file: File) {
+async function toAttachment(file: File): Promise<Attachment> {
   const buf = Buffer.from(await file.arrayBuffer());
-  return { filename: file.name, content: buf.toString("base64") };
+  return {
+    filename: file.name,
+    content: buf.toString("base64"),
+    contentType: file.type || "application/pdf",
+  };
 }
 
 export async function POST(request: Request) {
@@ -74,14 +79,17 @@ export async function POST(request: Request) {
   }
 
   const files: File[] = [];
+  let totalBytes = 0;
+
   for (const key of ["cv", "letter"]) {
     const file = form.get(key);
     if (file instanceof File && file.size > 0) {
-      if (file.size > MAX_FILE_BYTES) {
-        return NextResponse.json({ error: "file_too_large" }, { status: 413 });
-      }
       if (!ALLOWED.has(file.type)) {
         return NextResponse.json({ error: "file_type" }, { status: 415 });
+      }
+      totalBytes += file.size;
+      if (file.size > MAX_ATTACHMENT_BYTES || totalBytes > MAX_ATTACHMENT_BYTES) {
+        return NextResponse.json({ error: "file_too_large" }, { status: 413 });
       }
       files.push(file);
     }
@@ -91,49 +99,27 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "cv_required" }, { status: 400 });
   }
 
-  const text = [
-    `Candidature spontanée / Spontaneous application`,
-    ``,
-    `Nom / Name      : ${firstName} ${lastName}`,
-    `E-mail          : ${email}`,
-    `Téléphone       : ${phone}`,
-    `Domaine / Field : ${field}`,
-    `Niveau / Level  : ${level}`,
-    ``,
-    motivation,
-  ].join("\n");
-
-  const key = process.env.RESEND_API_KEY;
-  if (!key) {
-    console.info(
-      `[application] no RESEND_API_KEY set — not delivered. ` +
-        `${files.length} file(s): ${files.map((f) => f.name).join(", ")}\n${text}`,
-    );
-    return NextResponse.json({ ok: true, delivered: false });
-  }
-
-  const attachments = await Promise.all(files.map(toAttachment));
-
-  const res = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${key}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: FROM,
-      to: [TO],
-      reply_to: email,
-      subject: `[Candidature] ${firstName} ${lastName} — ${field || "spontanée"}`,
-      text,
-      attachments,
-    }),
+  const result = await sendMail({
+    to: TO,
+    replyTo: email,
+    subject: `[Candidature] ${firstName} ${lastName} — ${field || "spontanée"}`,
+    text: [
+      "Candidature spontanée / Spontaneous application",
+      "",
+      `Nom / Name      : ${firstName} ${lastName}`,
+      `E-mail          : ${email}`,
+      `Téléphone       : ${phone}`,
+      `Domaine / Field : ${field}`,
+      `Niveau / Level  : ${level}`,
+      "",
+      motivation,
+    ].join("\n"),
+    attachments: await Promise.all(files.map(toAttachment)),
   });
 
-  if (!res.ok) {
-    console.error("[application] resend failed", res.status, await res.text());
+  if (!result.ok) {
     return NextResponse.json({ error: "send_failed" }, { status: 502 });
   }
 
-  return NextResponse.json({ ok: true, delivered: true });
+  return NextResponse.json({ ok: true, delivered: result.delivered });
 }

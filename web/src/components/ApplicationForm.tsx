@@ -8,7 +8,9 @@ type State = "idle" | "sending" | "sent" | "error";
 const FIELDS = ["hr", "finance", "it", "marketing", "sales", "legal", "logistics", "engineering", "admin", "other"] as const;
 const LEVELS = ["junior", "confirmed", "senior", "expert"] as const;
 
-const MAX_CV_BYTES = 5 * 1024 * 1024;
+// Matches MAX_ATTACHMENT_BYTES in src/lib/mailer.ts. Microsoft Graph carries
+// attachments inline and caps the request at 4 MB; base64 inflates by a third.
+const MAX_CV_BYTES = 3 * 1024 * 1024;
 
 export function ApplicationForm() {
   const t = useTranslations("spontaneous");

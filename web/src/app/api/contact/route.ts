@@ -1,15 +1,14 @@
 import { NextResponse } from "next/server";
+import { sendMail } from "@/lib/mailer";
 
 /**
  * Contact form endpoint.
  *
- * Delivery is intentionally pluggable: set RESEND_API_KEY and mail goes out
- * through Resend. Without it the submission is logged and accepted, so the
- * form works in development and on preview deployments without credentials.
+ * Delivery provider is chosen in src/lib/mailer.ts from whichever
+ * credentials the deployment has. No secret is read from the repo.
  */
 
 const TO = process.env.CONTACT_TO ?? "info@diwa.tg";
-const FROM = process.env.CONTACT_FROM ?? "Diwa Industries <onboarding@resend.dev>";
 
 // Crude in-memory rate limit: enough to stop casual abuse on a single
 // instance. Put a real limiter in front if the form ever gets hammered.
@@ -58,39 +57,22 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "too_long" }, { status: 400 });
   }
 
-  const text = [
-    `Nom / Name: ${name}`,
-    `E-mail: ${email}`,
-    `Objet / Subject: ${subject}`,
-    "",
-    message,
-  ].join("\n");
-
-  const key = process.env.RESEND_API_KEY;
-  if (!key) {
-    console.info("[contact] no RESEND_API_KEY set — submission not delivered:\n" + text);
-    return NextResponse.json({ ok: true, delivered: false });
-  }
-
-  const res = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${key}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: FROM,
-      to: [TO],
-      reply_to: email,
-      subject: `[diwaindustries.tg] ${subject || "Message"} — ${name}`,
-      text,
-    }),
+  const result = await sendMail({
+    to: TO,
+    replyTo: email,
+    subject: `[diwaindustries.tg] ${subject || "Message"} — ${name}`,
+    text: [
+      `Nom / Name: ${name}`,
+      `E-mail: ${email}`,
+      `Objet / Subject: ${subject}`,
+      "",
+      message,
+    ].join("\n"),
   });
 
-  if (!res.ok) {
-    console.error("[contact] resend failed", res.status, await res.text());
+  if (!result.ok) {
     return NextResponse.json({ error: "send_failed" }, { status: 502 });
   }
 
-  return NextResponse.json({ ok: true, delivered: true });
+  return NextResponse.json({ ok: true, delivered: result.delivered });
 }

@@ -132,24 +132,64 @@ frame renders at full opacity server-side, so the hero is never blank.
 
 ## Email delivery
 
-Both the contact form and the job application form post to route handlers
-under `web/src/app/api/`. Without credentials they accept the submission,
-log it to the server console and return success — deliberate, so the forms
-work on preview deployments. To actually send mail:
+Both forms post to route handlers under `web/src/app/api/`. Delivery goes
+through `web/src/lib/mailer.ts`, which picks a provider from whichever
+credentials the deployment has:
 
-1. Create a key at [resend.com](https://resend.com) → API Keys (starts `re_`).
-2. **Verify `diwaindustries.tg` in Resend** under Domains, and add the DNS
-   records it gives you. This step is not optional — see below.
-3. Set the variables from `web/.env.example` in Vercel under
-   Settings → Environment Variables, or with `vercel env add`.
-4. Redeploy. Environment variables are read at build time.
+| Provider | Selected when | Notes |
+| --- | --- | --- |
+| **Microsoft Graph** | `AZURE_TENANT_ID` + `AZURE_CLIENT_ID` | Preferred — the org runs Entra ID |
+| Resend | `RESEND_API_KEY` | For deployments outside the tenant |
+| Console | neither | Logs, returns `delivered: false` |
 
-**The domain verification is the part people skip.** Resend's built-in
-`onboarding@resend.dev` sender only delivers to the email address that owns
-the Resend account. Until `diwaindustries.tg` is verified and
-`CONTACT_FROM` points at it, form submissions will not reach `info@diwa.tg`
-even with a valid key — the API returns success and the mail goes nowhere
-useful.
+No secret is read from the repo, and none should be handed to anyone who
+is not operating the deployment. Values live only in the hosting platform.
+
+### Microsoft Graph (recommended)
+
+Because the deploying organisation already runs **Microsoft Entra ID**, mail
+should leave from a mailbox in its own tenant. That removes the third party,
+removes the domain-verification step, and — with a federated credential —
+removes the stored secret entirely.
+
+1. **Register an application** in Entra ID.
+2. Grant the **`Mail.Send` *application* permission** for Microsoft Graph and
+   give it admin consent.
+3. **Scope it to one mailbox.** See the warning below — do not skip this.
+4. Prefer a **federated credential** over a client secret:
+   - On Vercel, enable OIDC for the project and add a federated credential in
+     Entra trusting Vercel's issuer. `VERCEL_OIDC_TOKEN` is then supplied at
+     runtime and exchanged for a Graph token — nothing secret is stored.
+   - On Azure compute (Container Apps, App Service), use a **managed
+     identity** instead.
+   - `AZURE_CLIENT_SECRET` remains supported as a fallback where neither is
+     available. It is the weakest of the three.
+5. Set `GRAPH_SENDER` to the sending mailbox and `CONTACT_TO` / `CAREERS_TO`
+   to the recipients.
+
+> **`Mail.Send` as an application permission is tenant-wide by default.**
+> Granted and left unscoped, the app can send email *as any mailbox in the
+> organisation* — not just the one you intended. Restrict it to the single
+> sending mailbox with an **Application Access Policy** in Exchange Online
+> (`New-ApplicationAccessPolicy`), or with RBAC for Applications, which is
+> replacing it. Note that an unscoped Entra permission can still allow sends
+> outside an Exchange RBAC scope, so the Entra grant and the Exchange scoping
+> need to agree.
+
+### Attachment size
+
+Graph's `sendMail` carries attachments inline and caps the whole request at
+4 MB, and base64 inflates bytes by about a third. `MAX_ATTACHMENT_BYTES` in
+`mailer.ts` is therefore **3 MB**, and the application form advertises the
+same figure. Raising it means switching to an upload session.
+
+### Resend (fallback)
+
+Only if deploying outside the tenant. Resend sends only from a domain
+verified in the Resend account — until `diwaindustries.tg` is verified there
+and `CONTACT_FROM` points at it, the built-in `onboarding@resend.dev` sender
+delivers only to the Resend account owner's own address. The API returns
+success either way, so this fails quietly.
 
 ## Known gaps
 
