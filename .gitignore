@@ -32,3 +32,12 @@ next-env.d.ts
 # Kept out of the repo: they are large, they are not build inputs, and the
 # material extracted from them lives in web/public and the message files.
 info_doc/
+
+# The GPAO internal tool is a separate application with its own database
+# and lifecycle. It lives in this folder for convenience but does not belong
+# in the website repo. Give it its own repo; remove this line if you decide
+# otherwise.
+gpao/
+
+# Editor / local tooling config
+.claude/
